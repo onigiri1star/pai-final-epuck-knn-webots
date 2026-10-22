@@ -74,7 +74,7 @@ python3 scripts/evaluate_model.py
 ## 提出物・関連ファイル
 
 - デモ動画（YouTube、66秒・等速・日本語字幕）: （URL は omnicampus の提出フォームに記載）
-- 説明資料 PDF: `docs/説明資料_PAI最終課題_YUMA888AI.pdf`
+- 説明資料 PDF: `docs/説明資料_PAI最終課題_88585.pdf`
 - デモ動画の字幕: `docs/demo_subtitles_ja.srt`
 
 ## 出典・参考
