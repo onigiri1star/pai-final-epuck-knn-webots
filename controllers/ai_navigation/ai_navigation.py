@@ -101,7 +101,8 @@ while robot.step(timestep) != -1:
     goal_direction = math.atan2(waypoint[1] - y, waypoint[0] - x)
     bearing = angle_difference(goal_direction, heading) / math.pi
 
-    # Correct the E-puck sensor idle baseline.
+    # Account for the ~75 reading seen in the idle e-puck IR sensors in this world.
+    # Empirical baseline for this demo, not a universal sensor calibration.
     sensor_idle = 75.0
     features = [
         clamp((front_right - sensor_idle) / 325.0, 0.0, 1.0),
